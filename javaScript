@@ -1,0 +1,9 @@
+function validateForm(){
+	let name = document.getElementById("name").value;
+	let email = document.getElementById("email").value;
+	let psw = document.getElementById("psw").value;
+	if(name == "" || email == "" || psw == ""){
+		alert("Lūdzu aizpildiet tukšos laukus un tikai tad reģistrējaties!");
+		return false;
+	}
+}
